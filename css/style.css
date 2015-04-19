@@ -7,3 +7,36 @@ img, video, audio, iframe, table, form {
 .row{
 	margin-bottom: 20px:;
 }
+
+
+/*//// Carousel Styles //*/
+
+#carousel-sample-generic .item img{
+	height: auto;	
+}
+
+.carousel-caption p {
+     display: none;
+}
+
+@media only screen and (min-width: 768px){
+	#carousel-sample-generic .item img{
+	height: 384px;
+}
+
+@media only screen and (min-width: 992px){
+	#carousel-sample-generic .item img{
+	height: 496px;	
+}
+.carousel-caption p {
+     display: block;
+}
+
+
+@media only screen and (min-width: 1200px){
+	#carousel-sample-generic .item img{
+	height: 600px;	
+}
+
+
+
